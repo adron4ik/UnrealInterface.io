@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1920px;
+}
+.container {
+    background-image: url(/img/background.jpg);
+    height: 100vh;
+}
+
+.container .logo {
+    left: 1300px;
+    position: absolute;
+    top: 15px;
+    
+}
+
+.map {
+    
+    top: 580px;
+    position: absolute;
+    height: 173px;
+    left: 30px;
+}
+.info {
+    position: absolute;
+    left: 30px;
+    top: 515px;
+}
+.help {
+    position: absolute;
+    left: 30px;
+    top: 200px;
+}
+
+.game {
+    
+    display: flex;
+    flex-flow: column;
+    position: absolute;
+    top: 620px;
+    left: 320px;
+    
+}
+
+.game img {
+    width: 154px;
+    height: 24px;
+    margin: 10px 0 0 10px;
+    
+}
+
+.dinfo {
+    position: absolute;
+    top: 720px;
+    left: 680px;
+}
+.engine {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 625px;
+    left: 1360px;
+}
+.fline {
+    position: absolute;
+    top: 580px;
+    left: 1305px ;
+}
+
+
